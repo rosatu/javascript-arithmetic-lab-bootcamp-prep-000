@@ -29,16 +29,10 @@ function dec(n)
   
 function makeInt(n) 
 {
-  if(${'n'} = NaN)
-console.log('NaN')
-else
-  return parseInt('n', 10)
+  return parseInt(n, 10)
 }  
 
 function preserveDecimal(n)
 {
-   if(${'n'} = NaN)
-console.log('NaN')
-else
   return parseFloat(n)
 }
