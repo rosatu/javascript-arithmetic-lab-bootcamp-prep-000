@@ -40,5 +40,5 @@ function preserveDecimal(n)
    if(${'n'} = NaN)
 console.log('NaN')
 else
-  return parseFloat('n')
+  return parseFloat(n)
 }
